@@ -18,9 +18,9 @@ The component accepts the props defined bellow in the table.
 
 ### Props accepted by wip-component
 
-| Name     | Type        | Required | Default | Description                                       |
-| -------- | ----------- | -------- | ------- | ------------------------------------------------- |
-| children | JSX.Element | yes      |         | The component to be displayed only in development |
+| Name     | Type              | Required | Default | Description                                       |
+| -------- | ----------------- | -------- | ------- | ------------------------------------------------- |
+| children | JSX.Element\|null | yes      |         | The component to be displayed only in development |
 
 ---
 
@@ -60,3 +60,7 @@ export default App;
 ### 1.0.0
 
 - wip-component is made publicly available
+
+### 1.0.1
+
+- Small fix in Readme for the type of children
