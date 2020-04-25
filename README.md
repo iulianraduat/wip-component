@@ -2,7 +2,7 @@
 
 A React component to show its children only when it is displayed in development.
 
-There are companies which likes to make the development of new features directly in the master branch.
+There are companies which like to make the development of new features directly in the master branch.
 In this way they do not need to use a release branch anymore.
 This component is thought to help them achieve this.
 
@@ -64,3 +64,7 @@ export default App;
 ### 1.0.1
 
 - Small fix in Readme for the type of children
+
+### 1.0.2
+
+- Fixed typo in Readme

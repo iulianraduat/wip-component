@@ -1,6 +1,6 @@
 {
   "name": "wip-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component to show its children only when it is displayed in development.",
   "main": "lib/index.js",
   "sideEffects": false,
