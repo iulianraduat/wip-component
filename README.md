@@ -1,4 +1,4 @@
-# wip-component ![Weekly downloads](https://img.shields.io/npm/dw/wip-component 'Weekly downloads')
+# wip-component ![Weekly downloads](https://img.shields.io/npm/dw/wip-component "Weekly downloads")
 
 A React component to show its children only when it is displayed in development.
 
@@ -35,15 +35,16 @@ The component accepts the props defined bellow in the table.
 ## Example
 
 ```js
-import * as React from 'react';
-import WIPComponent from 'wip-component';
+import * as React from "react";
+import WIPComponent from "wip-component";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <WIPComponent>
-          Here comes the component in development. It will be displayed only in the development environment.
+          Here comes the component in development. It will be displayed only in
+          the development environment.
         </WIPComponent>
       </div>
     );
@@ -68,3 +69,7 @@ export default App;
 ### 1.0.2
 
 - Fixed typo in Readme
+
+### 1.0.3
+
+- Updated packages
