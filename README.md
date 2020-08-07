@@ -43,8 +43,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <WIPComponent>
-          Here comes the component in development. It will be displayed only in
-          the development environment.
+          <div>
+            Here comes the component in development. It will be displayed only
+            in the development environment.
+          </div>
         </WIPComponent>
       </div>
     );
@@ -73,3 +75,7 @@ export default App;
 ### 1.0.3
 
 - Updated packages
+
+### 1.0.4
+
+- Fixed crash produced by "export \* from"

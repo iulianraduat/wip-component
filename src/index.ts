@@ -1,1 +1,1 @@
-export * from './WIPComponent';
+export { default } from "./WIPComponent";
