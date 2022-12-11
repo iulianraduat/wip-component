@@ -24,6 +24,13 @@ The component accepts the props defined bellow in the table.
 
 ---
 
+## Versions
+
+| ThemedAnalogClock _uses_ |  React   |
+| -----------------------: | :------: |
+|                    1.0.x | >=16.9.0 |
+|                    2.0.x | >=18.0.0 |
+
 ### About versioning schema used for wip-component
 
 - Major - it will be increased if the major version of the dependat package changes or there are breaking changes in the code of wip-component
@@ -43,7 +50,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <WIPComponent>
-          <div>Here comes the component in development. It will be displayed only in the development environment.</div>
+          <div>
+            Here comes the component in development. It will be displayed only
+            in the development environment.
+          </div>
         </WIPComponent>
       </div>
     );
@@ -85,3 +95,7 @@ export default App;
 ### 1.1.1
 
 - Updated the packages
+
+### 2.0.0
+
+- Supports minimum React 18
